@@ -24,6 +24,7 @@ public class Average_calc {
 		// calculates sum and average
 		double sum = grade_1 + grade_2 + grade_3 + grade_4 + grade_5+ grade_6 + grade_7 + grade_8 + grade_9 + grade_10;
 		double average = sum/10;
+		 
 		
 		// initialize grade variable
 		String grade;
