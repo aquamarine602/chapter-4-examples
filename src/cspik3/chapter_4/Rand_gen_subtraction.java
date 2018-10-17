@@ -16,17 +16,20 @@ public class Rand_gen_subtraction {
 		String calc_str = null;
 		int answer = 0;
 		
-		// assigns positions, calc and answer
+		// assigns positions, calc and answer -- larger number comes first
 		if (num1 > num2) {
 			calc_str = "What is: " + num1 + " - " + num2 + " ?";
 			answer = num1 - num2;
+			
 		} else if (num1 < num2) {
 			calc_str = "What is: " + num2 + " - " + num1 + " ?";
 			answer = num2 - num1;
+			
 		} else if (num1 == num2) {
 			calc_str = "What is: " + num1 + " - " + num2 + " ?";
 			answer = num1 - num2;
-		} else {
+			
+		} else {	// just in case something goes wrong
 			out.println("Something went wrong!");
 		}
 		
