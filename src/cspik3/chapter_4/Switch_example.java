@@ -2,23 +2,25 @@ package cspik3.chapter_4;
 
 import java.util.Scanner;
 import static java.lang.System.out;
-import java.util.Random;
 
 public class Switch_example {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		Random rand = new Random();
 		
+		// variable for if while loop is true
 		int keep_going = 1;
-				
+		
+		// while the user wants to find a zodiac
 		while (keep_going == 1) {
 			
+			// get the birth year of user
 			out.println("Enter the year you were born: ");
 			int year = input.nextInt();
 			
 			out.println();
 		
+		// switch with different zodiacs
 		switch (year % 12) {
 		case 0:
 			out.println("Monkey");
@@ -29,6 +31,10 @@ public class Switch_example {
 					+ "love life. Although they were born with enviable skills, they still have several\n"
 					+ "shortcomings, such as an impetuous temper and a tendency to look down\n"
 					+ "upon others.");
+			out.println("       _    \r\n" + 
+					"     c -.     \r\n" + 
+					"\\_   / |    \r\n" + 
+					"  \\_| || ");
 			break;
 		
 		case 1:
@@ -39,6 +45,13 @@ public class Switch_example {
 					+ "common personality traits such as being responsive, distinctive,\n"
 					+ "smart and earnest. Being strict with themselves is their strongest\n"
 					+ "characteristic.");
+			out.println(" \r\n" + 
+					"  ////  /' )'\r\n" + 
+					" @   \\/'  )'\r\n" + 
+					"< (  (_...)'\r\n" + 
+					"  \\      )\r\n" + 
+					"   \\,,,,/\r\n" + 
+					"     _|_");
 			break;
 		
 		case 2:
@@ -48,6 +61,10 @@ public class Switch_example {
 					+ "to Chinese zodiac analysis. They are not afraid of difficulties in\n"
 					+ "daily life. These shining characteristics make them have harmonious\n"
 					+ "relationship with people around.");
+			out.println("           __\r\n" + 
+					"      (___()'`;\r\n" + 
+					"      /,    /`\r\n" + 
+					"      \\\\\"--\\\\");
 			break;
 		
 		case 3:
@@ -58,6 +75,10 @@ public class Switch_example {
 					+ "which help them gain harmonious interpersonal relationships. However, sometimes\n"
 					+ "they will behave lazy and lack actions. In addition, pure hearts would let\n"
 					+ "them be cheated easily in daily life.");
+			out.println("    _____  \r\n" + 
+					"^..^     \\9\r\n" + 
+					"(oo)_____/ \r\n" + 
+					"   WW  WW");
 			break;
 			
 		case 4:
@@ -68,6 +89,9 @@ public class Switch_example {
 					+ "circumstances take place. They are also sophisticated and popular in\n"
 					+ "social interaction. They are sanguine and very adaptable, being popular\n"
 					+ "with others.");
+			out.println("  __QQ\r\n" + 
+					" (_)_\">\r\n" + 
+					"_)      ");
 			break;
 			
 		case 5:
@@ -79,6 +103,12 @@ public class Switch_example {
 					+ "surroundings but just follow their concept and ability. Being conservative\n"
 					+ "with a lack of wit in speaking, they usually look silent and sometimes\n"
 					+ "stubborn in their old ways.");
+			out.println(" \r\n" +
+					"             (__)    \r\n" + 
+					"     `\\------(oo)\r\n" + 
+					"       ||    (__)\r\n" + 
+					"       ||---||         \r\n" + 
+					"       ");
 			break;
 			
 		case 6:
@@ -89,6 +119,11 @@ public class Switch_example {
 					+ "middle age, their fate may be uneven, but after hardships, they will enjoy\n"
 					+ "a bright prospect. While they are also likely to be dogmatic, and like\n"
 					+ "showing off when accomplishing something.");
+			out.println(" \r\n" +
+					" |\\__/,|   (`\\\r\n" + 
+					" |_ _  |.--.) )\r\n" + 
+					" ( T   )     /\r\n" + 
+					"(((^_(((/(((_/");
 			break;
 			
 		case 7:
@@ -101,6 +136,14 @@ public class Switch_example {
 					+ "and like house fitting-up. They can work with speed and efficiency, do not\n"
 					+ "insist and get angry easily. But they also like hesitating, which makes\n"
 					+ "them lose many chances.");
+			out.println(" \r\n" +
+					"     \\\\\r\n" + 
+					"      \\\\_\r\n" + 
+					"      ( _\\\r\n" + 
+					"      / \\__\r\n" + 
+					"     / _/`\"`\r\n" + 
+					"    {\\  )_\r\n" + 
+					"      `\"\"\"`");
 			break;
 			
 		case 8:
@@ -111,6 +154,17 @@ public class Switch_example {
 					+ "However, they are also a bit arrogant and impatient. Female Dragons tend to\n"
 					+ "be overly confident. They hate hypocrisy, gossip and slander. They are not\n"
 					+ "afraid of difficulties but hate to be used or controlled by others.");
+			out.println("          ,  ,\r\n" + 
+					"          \\\\ \\\\           \r\n" + 
+					"          ) \\\\ \\\\    _p_ \r\n" + 
+					"          )^\\))\\))  /  *\\ \r\n" + 
+					"           \\_|| || / /^`-' \r\n" + 
+					"  __       -\\ \\\\--/ / \r\n" + 
+					"<'  \\\\___/   ___. )'\r\n" + 
+					"     `====\\ )___/\\\\ \r\n" + 
+					"          //     `\"\r\n" + 
+					"          \\\\    /  \\\r\n" + 
+					"          `\"");
 			break;
 			
 		case 9:
@@ -119,6 +173,13 @@ public class Switch_example {
 			out.println("Snakes are a symbol of wisdom and wit. Therefore, Snakes are sensitive and\n"
 					+ "humorous, and most of them are gifted in literature and art, such as Goethe and\n"
 					+ "Picasso. Suspicion is their weakness, which makes them hesitant and a bit paranoid.");
+			out.println(" \r\n" + 
+					"     >---==\r\n" + 
+					"          ==\r\n" + 
+					"          =\r\n" + 
+					"         ==\r\n" + 
+					"        =====\r\n" + 
+					"       ==========\"");
 			break;
 			
 		case 10:
@@ -128,6 +189,13 @@ public class Switch_example {
 					+ "they usually have a lot of friends flocking around them. Independence and endurance\n"
 					+ "makes them more powerful, and they do not easily give up when in difficulties.\n"
 					+ "Positive attitude leads to a brighter direction.");
+			out.println(" \r\n" +
+					"        ,--,\r\n" + 
+					"  _ ___/ /\\|\r\n" + 
+					" ;( )__, )\r\n" + 
+					"; //   '--;\r\n" + 
+					"  \\     |\r\n" + 
+					"   ^    ^");
 			break;
 			
 		case 11:
@@ -138,15 +206,21 @@ public class Switch_example {
 					+ "compassionate and can cope with business cautiously and circumspectly. In their daily\n"
 					+ "life, they try to be economical. They are willing to take good care of others, but\n"
 					+ "they should avoid pessimism and hesitation.");
+			out.println(" \r\n" +
+					"  _-(_)-\r\n" +
+					"`(___)\r\n"+
+					" // \\\\");
 			break;
 		
 		}
 		
+		// if the player wants to find more years
 		out.println();
 		out.println("Did you want to enter a new year? (1 for yes, 2 for no)");
 		keep_going = input.nextInt();
 		out.println();
 		
+		// check's users answer to see if it's valid
 		while (keep_going != 1 && keep_going != 2) {
 			out.println("Invalid answer! Choose a new one.");
 			out.println();
@@ -156,6 +230,7 @@ public class Switch_example {
 		}		
 	}
 		
+		// if the user chose no
 		out.println();
 		out.println("Goodbye!");
 	
